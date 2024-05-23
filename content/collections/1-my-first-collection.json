@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "name": "My first collection",
+  "description": "The first collection",
+  "fossils": [
+    "1",
+    "2"
+  ]
+}

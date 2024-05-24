@@ -1,0 +1,14 @@
+{
+  "date": "25.05.2024",
+  "name": "Bacilutes cutie",
+  "classification": {
+    "domain": "domain",
+    "kingdom": "kingdom",
+    "phylum": "phylum",
+    "class": "class",
+    "order": "order",
+    "family": "family1",
+    "genus": "genus1",
+    "species": "species1"
+  }
+}

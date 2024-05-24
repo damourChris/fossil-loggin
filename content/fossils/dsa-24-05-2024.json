@@ -1,0 +1,11 @@
+{
+  "id": "{{slug}}",
+  "date": "24.05.2024",
+  "name": "dsa",
+  "description": "f",
+  "classification": {
+    "domain": "d",
+    "kingdom": "w",
+    "phylum": "qe"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "{{class}}-{{order}}-{{family}}-{{genus}}-{{species}}",
+  "date": "24.05.2024",
+  "name": "dsa",
+  "classification": {
+    "domain": "ds",
+    "kingdom": "dsq",
+    "phylum": "rwq",
+    "class": "ewq",
+    "order": "fds"
+  }
+}

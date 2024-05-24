@@ -1,0 +1,29 @@
+{
+  "fossils": [
+    {
+      "fossil": "Bacilutes anceps",
+      "occurence": 321,
+      "tags": [
+        {
+          "tag": "Rare"
+        },
+        {
+          "tag": "Cool "
+        }
+      ]
+    },
+    {
+      "fossil": "Bacilutes cutie",
+      "occurence": 42,
+      "tags": [
+        {
+          "tag": "common"
+        },
+        {
+          "tag": "Cute"
+        }
+      ]
+    }
+  ],
+  "name": "The cave"
+}

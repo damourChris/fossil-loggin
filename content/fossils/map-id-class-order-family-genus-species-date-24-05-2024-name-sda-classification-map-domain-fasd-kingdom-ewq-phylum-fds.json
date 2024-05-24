@@ -1,0 +1,10 @@
+{
+  "id": "{{class}}-{{order}}-{{family}}-{{genus}}-{{species}}",
+  "date": "24.05.2024",
+  "name": "sda",
+  "classification": {
+    "domain": "fasd",
+    "kingdom": "ewq",
+    "phylum": "fds"
+  }
+}

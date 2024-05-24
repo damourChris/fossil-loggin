@@ -10,9 +10,12 @@ useHead({
   script: [
     {
       src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+      defer: true,
+
     },
     {
       src: 'https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js',
+      defer: true,
     },
 
   ],
@@ -20,5 +23,5 @@ useHead({
 </script>
 
 <template>
-  <div />
+  <div id="nc-root" />
 </template>

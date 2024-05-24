@@ -1,4 +1,10 @@
 {
   "id": "{{slug}}",
-  "name": "Laumont"
+  "name": "Laumont",
+  "fossils": [
+    {
+      "fossil": "Bacilutes cutie",
+      "occurence": 5
+    }
+  ]
 }

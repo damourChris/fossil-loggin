@@ -6,27 +6,34 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "lint": "eslint . --fix",
+    "prepare": "nuxt prepare",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@nuxt/content": "^2.12.1",
     "@nuxt/kit": "^3.11.2",
+    "@tanstack/vue-table": "^8.17.3",
+    "@vueuse/core": "^10.9.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.379.0",
     "nuxt": "^3.11.2",
+    "phylotree": "^2.0.1",
     "radix-vue": "^1.8.1",
     "shadcn-nuxt": "^0.10.4",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
+    "vaul-vue": "^0.1.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "eslint": "^9.3.0",
     "@nuxt/eslint-config": "^0.3.13",
+    "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/tailwindcss": "^6.12.0",
+    "eslint": "^9.3.0",
     "typescript": "^5.4.5"
   }
 }

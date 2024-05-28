@@ -10,7 +10,7 @@
       "occurrence": 4,
       "tags": [
         {
-          "tag": "very"
+          "label": "very"
         },
         {
           "tag": "cute"
@@ -23,7 +23,7 @@
       "occurrence": 5,
       "tags": [
         {
-          "tag": "no idea"
+          "label": "no idea"
         }
       ]
     }

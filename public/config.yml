@@ -116,5 +116,5 @@ collections:
             widget: "list"
             fields:
               - label: "Tag"
-                name: "tag"
+                name: "label"
                 widget: "string"

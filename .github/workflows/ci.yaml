@@ -35,7 +35,7 @@ jobs:
               run: pnpm install
 
             - name: Build application
-              run: pnpm run generate
+              run: NUXT_APP_BASE_URL=/${{ github.repository }}/ npx nuxt build --preset github_pages
               env:
                 NITRO_PRESET: github_pages
 

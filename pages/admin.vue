@@ -25,7 +25,7 @@ useHead({
 <template>
   <div
     id="nc-root"
-    class="absolute dark:bg-white max-w-full h-full"
+    class="absolute dark:bg-white min-w-1/2 max-w-full h-full"
   />
 </template>
 

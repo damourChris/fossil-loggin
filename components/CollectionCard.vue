@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { columns } from './occurence/columns'
-import type { Collection } from '~/types'
+import type { Collection, Fossil } from '~/types'
 
 const { collection } = defineProps<{
   collection: Collection
@@ -8,11 +8,11 @@ const { collection } = defineProps<{
 
 const { name, description, location, fossils } = collection
 
-// const fossilsNames = fossils.map(fossil => fossil.fossil)
+const fossilsNames = fossils.map(fossil => fossil.name)
 
 // Fetch Fossil fossils from nuxt content based on the fossils list
 // const { data: fossilsList } = await useAsyncData<Fossil[]>(
-//   `fossils-${title}`,
+//   `fossils-${name}`,
 //   () => queryContent<Fossil>('/fossils')
 //     .where({
 //       name: { $in: fossilsNames },

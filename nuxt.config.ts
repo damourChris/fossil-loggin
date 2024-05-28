@@ -15,6 +15,9 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
   },
+  nitro: {
+    preset: 'github-pages',
+  },
   shadcn: {
     prefix: 'SC',
     componentDir: './components/ui',

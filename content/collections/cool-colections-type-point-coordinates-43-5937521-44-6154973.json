@@ -1,0 +1,28 @@
+{
+  "name": "Cool colections",
+  "location": "{\"type\":\"Point\",\"coordinates\":[-43.5937521,44.6154973]}",
+  "description": "Middle of the ocean collection ",
+  "fossils": [
+    {
+      "fossil": "Cutius Fossilius",
+      "occurence": 4,
+      "tags": [
+        {
+          "tag": "very"
+        },
+        {
+          "tag": "cute"
+        }
+      ]
+    },
+    {
+      "fossil": "Bacilutesanceps",
+      "occurence": 5,
+      "tags": [
+        {
+          "tag": "no idea"
+        }
+      ]
+    }
+  ]
+}

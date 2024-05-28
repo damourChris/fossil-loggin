@@ -1,10 +1,12 @@
 {
-  "id": "{{slug}}",
+  "id": "5f34e1b1-6b7b-4b3b-8b7b-6b7b4b3b8b7b",
   "name": "Laumont",
+  "description": "Laumont is a small village in the south of France.",
   "fossils": [
     {
-      "fossil": "Bacilutes cutie",
-      "occurence": 5
+      "name": "Bacilutes cutie",
+      "id": "",
+      "occurrence": "5"
     }
   ]
 }

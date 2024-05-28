@@ -1,29 +1,33 @@
 {
+  "id": "6b7b-5f34e1b1-4b3b-8b7b-6b7b4b3b8b7b",
   "fossils": [
     {
-      "fossil": "Bacilutes anceps",
-      "occurence": 321,
+      "name": "Bacilutes anceps",
+      "id": "",
+      "occurrence": "321",
       "tags": [
         {
-          "tag": "Rare"
+          "label": "Rare"
         },
         {
-          "tag": "Cool "
+          "label": "Cool "
         }
       ]
     },
     {
-      "fossil": "Bacilutes cutie",
-      "occurence": 42,
+      "name": "Bacilutes cutie",
+      "id": "",
+      "occurrence": "42",
       "tags": [
         {
-          "tag": "common"
+          "label": "common"
         },
         {
-          "tag": "Cute"
+          "label": "Cute"
         }
       ]
     }
   ],
+  "description": "A cave with a lot of fossils",
   "name": "The cave"
 }

@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     exposeConfig: true,
     viewer: true,
   },
+
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
   },
@@ -28,5 +29,11 @@ export default defineNuxtConfig({
     preference: 'system',
     fallback: 'light',
     classSuffix: '',
+  },
+  $production: {
+    // prefix all routes with /fossil-logging for production builds only (e.g. /fossil-logging/about)
+    app: {
+      baseURL: '/fossil-logging',
+    },
   },
 })

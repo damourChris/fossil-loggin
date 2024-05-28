@@ -1,8 +1,8 @@
 backend:
-  name: github
-  repo: damourChris/fossil-logging
-  branch: main # Branch to update (optional; defaults to master)
-  # name: test-repo
+  # name: github
+  # repo: damourChris/fossil-logging
+  # branch: main # Branch to update (optional; defaults to master)
+  name: test-repo
 
 media_folder: static/img
 public_folder: /img
@@ -75,7 +75,7 @@ collections:
         search_fields: ["name"]
         required: false
         multiple: false
-  - name: "collection"
+  - name: "collections"
     label: "Collection"
     folder: "content/collections"
     format: "json"
